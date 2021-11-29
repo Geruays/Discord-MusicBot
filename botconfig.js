@@ -2,10 +2,10 @@ module.exports = {
   Admins: ["UserID", "UserID"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
-  Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
+  Port: 3080, //Which port website gonna be hosted
+  SupportServer: "https://discord.gg/fWWa8MBthV", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
+  ClientID: process.env.Discord_ClientID || "ODkxOTMxMzM4ODcyMDg2NTM4.YVFhyg.tJvYWQ81Ex3qxhSuWEvspMsn5oQ", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
@@ -29,7 +29,7 @@ module.exports = {
   Lavalink: {
     id: "Main",
     host: "host name or IP",
-    port: 80, // The port that lavalink is listening to. This must be a number!
+    port: 8080, // The port that lavalink is listening to. This must be a number!
     pass: "your password",
     secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
